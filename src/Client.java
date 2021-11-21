@@ -1,6 +1,6 @@
 public class Client {
-    private String name;
-    private int[] shoppingCart;
+    private final String name;
+    private final int[] shoppingCart;
 
     public Client(String name, int[] shoppingCart) {
         this.name = name;

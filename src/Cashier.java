@@ -1,5 +1,5 @@
 public class Cashier {
-    private String name;
+    private final String name;
 
     public Cashier(String name) {
         this.name = name;
@@ -27,7 +27,7 @@ public class Cashier {
         try {
             Thread.sleep(seconds * 1000L);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
 
     }
