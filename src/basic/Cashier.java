@@ -1,3 +1,5 @@
+package basic;
+
 public class Cashier {
     private final String name;
 

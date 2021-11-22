@@ -1,3 +1,5 @@
+package basic;
+
 public class CashierThread extends Thread{
     private String nameCashier;
     private Client client;

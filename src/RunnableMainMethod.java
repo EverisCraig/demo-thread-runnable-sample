@@ -1,3 +1,6 @@
+import basic.Cashier;
+import basic.Client;
+
 public class RunnableMainMethod implements Runnable{
     private Client client;
     private Cashier cashier;
