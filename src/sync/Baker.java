@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Baker implements Runnable{
 
-    private Bakery bakery;
+    private final Bakery bakery;
 
 
     public Baker(Bakery bakery) {
